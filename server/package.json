@@ -1,11 +1,20 @@
 {
-  "name": "serverless-hello-world",
-  "version": "1.0.0",
-  "description": "A simple serverless Node.js function on Vercel",
-  "main": "api/hello.js",
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node api/hello.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "Your Name",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.4"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
 }

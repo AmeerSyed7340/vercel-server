@@ -1,0 +1,11 @@
+{
+  "name": "serverless-hello-world",
+  "version": "1.0.0",
+  "description": "A simple serverless Node.js function on Vercel",
+  "main": "api/hello.js",
+  "scripts": {
+    "start": "node api/hello.js"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}

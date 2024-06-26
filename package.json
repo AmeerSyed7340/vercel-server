@@ -1,0 +1,15 @@
+{
+    "name": "simple-node-server",
+    "version": "1.0.0",
+    "description": "A simple Node.js serverless function",
+    "main": "api/hello.js",
+    "scripts": {
+      "start": "node api/hello.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "engines": {
+      "node": ">=14"
+    }
+  }
+  
